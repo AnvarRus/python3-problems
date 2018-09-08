@@ -1,4 +1,5 @@
 
+month = int(input("введите номер месяца: "))
 
 def season(month):
 
@@ -10,3 +11,5 @@ def season(month):
         return "лето"
     elif month in (9, 10, 11):
         return "осень"
+
+print(season(month))
